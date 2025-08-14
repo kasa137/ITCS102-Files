@@ -1,0 +1,1 @@
+something = input("input something... ")print("date type of somthing is",type(something))
