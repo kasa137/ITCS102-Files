@@ -15,7 +15,7 @@ while True:
     print("                | E - Learn Types of Operators               |")
     print("                | F - Learn Assignments                      |")
     print('                *============================================*')
-    print("                             X - EXIT SYSTEM                            ")
+    print("                             X - EXIT SYSTEM                    ")
     print("             *===================================================*")
     print("(⁠◠⁠‿⁠・⁠)⁠—⁠☆")
     unak = input("\nPlease select option above what you want to learn~~ :  ").lower()
@@ -30,8 +30,8 @@ while True:
         e = input("\nPress 'enter' to CONTINUE  : ")
         if e == ' ':
             continue
-        else :
-            continue    
+        else:
+            continue
         continue
     elif unak == 'b':
         os.system("clear")
@@ -45,11 +45,10 @@ while True:
         print("    |and therefore reduces the cost of program maintenance.                                                 |")
         print("    =========================================================================================================")
         e = input("\nPress 'enter' to CONTINUE : ")
-        if e == ' ' :
+        if e == ' ':
             continue
         else:
             continue
-            
     elif unak == "c":
         while True:
             os.system("clear")
@@ -75,7 +74,7 @@ while True:
                 print("        |str, refers to the build-in string data type and str() function  |")
                 print("        |used for converting objects to their string represention.        |")
                 print("        *===============================================================*\n")
-                def unak(): {
+                def unak():{
                     print("Hello world")
                 }
                 print("\n############################################################################################")
@@ -397,14 +396,14 @@ while True:
                         os.system('clear')
                         print('Modulor')
                         print('        o⁠(⁠(⁠*⁠^⁠▽⁠^⁠*⁠)⁠)⁠o')
-                        print('        *=========================== ~* Modulor *~ ==============================*')
+                        print('        *=========================== ~* Modulo*~ ==============================*')
                         print('        | Calculates the remainder of the division operation between two numbers.|')
                         print('        *========================================================================*')
                         ###########################################################
                         # modulor
                         print("\n############################################################################################")
                         print("RESULT:\n")
-                        print('SYMBOL : **')
+                        print('SYMBOL : %')
                         a = 18 
                         b = 20
                         c = a % b
@@ -675,17 +674,17 @@ while True:
                 print("*==================================================*")
                 print(' •⁠ ‿⁠ • ')
                 e = input("Press ,'enter' to CONTINUE : ")
-            elif f == '1':
+            elif f == '2':
                 os.system('clear')
                 print(" ~* Subtraction assign. *~ ================*")
                 print('SYMBOL : -=')
                 order = 5
-                order += 2
+                order -= 2
                 print(order)
                 print("*==================================================*")
                 print(' •⁠ ‿⁠ • ')
                 e = input("Press ,'enter' to CONTINUE : ")    
-            elif f == '1':
+            elif f == '3':
                 os.system('clear')
                 print(" ~* Multiplication assign *~ ================*")
                 print('SYMBOL : *=')
@@ -698,7 +697,7 @@ while True:
                 print("*==================================================*")
                 print(' •⁠ ‿⁠ • ')
                 e = input(" Press ,'enter' to CONTINUE : ")
-            elif f == '1':
+            elif f == '4':
                 os.system('clear')
                 print(" ~*Division assign. *~ ================*")
                 print('SYMBOL : /=')
@@ -711,7 +710,7 @@ while True:
                 print("*==================================================*")
                 print(' •⁠ ‿⁠ • ')
                 e = input("Press ,'enter' to CONTINUE : ")
-            elif f == '1':
+            elif f == '5':
                 os.system('clear')
                 print(" ~* Modulor *~ ================*")
                 print('SYMBOL : %=')
@@ -725,7 +724,7 @@ while True:
                 print("*==================================================*")
                 print(' •⁠ ‿⁠ • ')
                 e = input("Press ,'enter' to CONTINUE : ")
-            elif f == '1':
+            elif f == '6':
                 os.system('clear')
                 print("~* Exponent assign. *~ ================*")
                 print('SYMBOL : **=')
@@ -738,7 +737,7 @@ while True:
                 print("*==================================================*")
                 print(' •⁠ ‿⁠ • ')
                 e = input(" Press ,'enter' to CONTINUE : ")
-            elif f == '1':
+            elif f == '7':
                 os.system('clear')
                 print("~* floor Division assign. *~ ================*")
                 print('SYMBOL : //=')
